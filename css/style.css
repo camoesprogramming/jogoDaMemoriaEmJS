@@ -4,10 +4,33 @@ body {
   background-color: #eef9bf;
 }
 
+h1 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 66px;
+  letter-spacing: -0.004em;
+  color: #75B79E;
+  margin-top: 47px;
+  margin-bottom: 13px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+  max-width: 989px;
+}
+
 .card {
   width: 117px;
   height: 146px;
   position: relative;
+  margin-left: 34px;
+  margin-top: 34px;
 }
 
 .face {
@@ -37,15 +60,6 @@ body {
   transform: rotateY(-180deg);
 }
 
-h1 {
-  font-family: Roboto;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 66px;
-  letter-spacing: -0.004em;
-  text-align: left;
-  color: #75B79E;
-}
 
 img {
   width: 100px;
